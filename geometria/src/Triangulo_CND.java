@@ -23,7 +23,4 @@ public class Triangulo_CND extends FiguraGeometrica_CND {
 		return Math.sqrt(sp * (sp-lado1) * (sp-lado2) * (sp-lado3));
 	}
 	
-	public double semiPerimetro() {
-		return this.perimetro() / 2;
-	}
 }
